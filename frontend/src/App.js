@@ -11,7 +11,8 @@ import ProffProject from "./components/professor/ProffProject";
 import Signup from "./components/login_signup/Register";
 import Login from "./components/login_signup/Login"
 import axios from "axios";
-function App() {
+function App() { 
+
   // const isProffessor = true;
 
   const [users, setUsers] = useState([]);
@@ -36,6 +37,9 @@ const fetchUsers = () =>{
     })
 }
 
+
+
+  // const isProffessor = false;
 
   return (
     <Router>
